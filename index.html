@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FITNESS WORLD</title>
+    </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  type="text/css" href="CSS/style.css"/>
+    <style>
+        body{
+            font-family: 'Baloo Bhaina 2', cursive;
+    margin:0px;
+    padding:0px;
+    background:url('gymm.jpeg');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    color:white;
+
+}
+.left{
+    
+    display:inline-block;
+    position:absolute;
+    left:40px;
+    top:20px;
+
+}
+.left img{
+    width:100px;
+    margin-left: 10px;
+    filter:invert(100%);
+}
+.left div{
+    text-align:center;
+    line-height: 0px;
+    font-size: 16px;
+}
+.mid{
+    display:block;
+    width:36%;
+    margin:23px  auto;
+    top:29px;
+
+}
+.right{
+display:inline-block;
+position:absolute;
+right:34px;
+top:33px;
+}
+.navbar{
+    dispaly:inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size:22px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none; 
+    padding:40px 10px;   
+}
+.navbar li a:hover,.navbar li a.active{
+    color:white;
+    text-decoration: underline; 
+    padding:40px 10px; 
+    color:grey;  
+}
+.btn{
+    margin:0px 9px;
+    background-color: black;
+    color:white;
+    padding:5px 24px;
+    border:2px solid grey;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor:pointer;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn:hover{
+    background-color: rgba(110, 107, 107, 0.548);
+}
+.container{
+    margin:106px 80px;
+    padding:75px;
+    width:33%;
+    border-radius: 28px;
+    display: block;
+    border: 2px solid white;
+    
+}
+.form-group input{
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    margin:11px;
+    display: block;
+    width:508px;
+    padding:0px;
+    border: 2px solid black;
+    margin:3px auto;
+    font-size: 18px;
+    border-radius: 8px;
+    
+
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 105%;
+    margin:10px auto;
+}
+    </style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="dumbell.jpeg" alt="">
+            <div>FITNESS WORLD</div>
+            
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"class ="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FitnessCalculator</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Phone</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Best Gym near your place</h1>
+        <form action="noaction.php">
+        
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name"
+                </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age"
+                </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender"
+                    </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality"
+                    </div>
+            <button class="btn" >Submit</button>
+                    
+        </form>
+    </div>
+
+</body>
+</html>
